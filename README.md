@@ -5,6 +5,11 @@ Data Analyst Portfolio
 Dashboard link : https://cumailin-my.sharepoint.com/:u:/g/personal/23mca20474_cuchd_in/ER-xE464wNBGvbvRjhxREL8BoWPJ8DPbmSNeLkNCFcEcSg?e=WDfKdG
 
 
+![Tabluea](https://github.com/user-attachments/assets/b2b22c4e-ff03-4903-bccd-12e956106455)
+
+![PowerBI](https://github.com/user-attachments/assets/df779fd8-a512-44fd-8d4c-9ee9130fbb92)
+
+
 1.  Abstract:
 This project aims to analyze e-commerce data to uncover valuable business insights using popular data analysis tools, including PowerBI, Tableau, SQL, and Excel. The dataset contains information on sales transactions, customer demographics, product details, and marketing campaigns, covering a period of two years. The project involves comprehensive data cleaning, transformation, exploratory analysis, and the development of interactive dashboards to visualize Key Performance Indicators (KPIs). By leveraging SQL for data manipulation, Excel for quick analysis, PowerBI for real-time dashboarding, and Tableau for advanced visualization, the project provides actionable insights into sales performance, customer behavior, product profitability, and regional trends. The findings are used to recommend strategies for optimizing marketing efforts, improving customer retention, and enhancing overall business profitability. The project also demonstrates proficiency in applying industry-standard tools for data analysis and visualization, showcasing how businesses can make data-driven decisions effectively.
 The project reveals actionable insights on product performance, customer behavior, regional sales trends, and marketing campaign effectiveness. These insights support recommendations for optimizing business strategies, such as enhancing product offerings, improving customer retention through loyalty programs, and fine-tuning marketing campaigns for better Return on Investment (ROI). This project demonstrates the effective use of modern data analysis tools to deliver value to businesses by transforming data into insights that inform strategic decisions . This comprehensive analysis demonstrates the effective use of modern tools to generate insights that support data-driven decision-making and drive business growth.
