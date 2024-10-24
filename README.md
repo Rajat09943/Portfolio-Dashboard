@@ -1,8 +1,8 @@
 # Portfolio-Dashboard
 
-Data Analyst Portfolio
+Data Analyst Portfolio 
 
-Dashboard link : https://cumailin-my.sharepoint.com/:u:/g/personal/23mca20474_cuchd_in/ER-xE464wNBGvbvRjhxREL8BoWPJ8DPbmSNeLkNCFcEcSg?e=WDfKdG
+Dashboard link : (https://drive.google.com/drive/folders/1lxM0SzCfcFeroyjbQHhkx2krT_OB7HW4?usp=drive_link)
 
 
 ![Tabluea](https://github.com/user-attachments/assets/b2b22c4e-ff03-4903-bccd-12e956106455)
