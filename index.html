@@ -5,22 +5,165 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Rajat Sapehia</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240919/pngtree-a-background-of-orange-blue-and-yellow-gradients-with-gritty-appearance-image_16233934.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 1rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    h1, h2, p {
+      color: white;
+    }
+    #hero {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 3rem 0;
+      text-align: left;
+      gap: 2rem;
+    }
+    #profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      object-fit: cover;
+      object-position: top; /* Focuses on the upper part of the image */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    #profile-img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+    #hero h2 {
+      font-size: 2rem;
+      color: #fff;
+    }
+    #hero p {
+      font-size: 1.2rem;
+      color: #fff;
+    }
+    #projects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .project-card {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+    }
+    .project-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    #skills, #contact {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    /* Flexbox layout for horizontal cards */
+    .cards-container {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
+    .card {
+      background: linear-gradient(145deg, #ff6a00, #ee0979); /* Gradient background */
+      padding: 2rem;
+      border-radius: 8px;
+      margin: 2rem 0;
+      width: 45%; /* Adjust width for horizontal layout */
+      max-width: 500px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    .card:hover {
+      background-color: #f6c1c1; /* Light color on hover */
+      transform: scale(1.05);
+    }
+    #skills ul, #contact ul {
+      list-style: none;
+      padding: 0;
+    }
+    #skills ul li, #contact ul li {
+      margin: 1rem 0;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+    #skills ul li:hover, #contact ul li:hover {
+      color: #ffeb3b; /* Hover effect color */
+    }
+    #skills ul li {
+      display: inline-block;
+      margin: 0 1rem;
+    }
+    #contact ul li a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    #contact ul li a:hover {
+      color: #ffeb3b; /* Hover effect color for links */
+    }
+    #contact ul li {
+      font-size: 1.2rem;
+    }
+    /* Style for the section headings */
+    #skills h2, #contact h2 {
+      color: #1e90ff; /* Blue color */
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    #skills h2:hover, #contact h2:hover {
+      color: #00bfff; /* Lighter blue on hover */
+    }
+  </style>
 </head>
 <body>
   <header>
     <nav>
-      <h1>Rajat Sapehia</h1>
+    
       <ul>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <button id="dark-mode-toggle">Dark Mode</button>
     </nav>
   </header>
   <section id="hero" class="animate">
-    <h2>Hi, I'm Rajat Sapehia</h2>
-    <p>Full Stack Developer | Open Source Enthusiast</p>
+    <img id="profile-img" src="WhatsApp Image 2024-12-05 at 12.48.36_a0330e45.jpg" alt="Rajat Sapehia">
+    <div>
+      <h2>Hi, I'm Rajat Sapehia</h2>
+      <p>Full Stack Developer | Open Source Enthusiast</p>
+    </div>
   </section>
   <section id="projects">
     <h2>Projects</h2>
@@ -44,6 +187,33 @@
       <p>A complete doctor appointment management system built with React.</p>
       <a href="https://github.com/Rajat09943/doctor-" target="_blank">GitHub</a>
       <a href="#" target="_blank">Live Demo</a>
+    </div>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="cards-container">
+      <div class="card">
+        <ul>
+          <li>MERN Stack</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="cards-container">
+      <div class="card">
+        <ul>
+          <li>Phone: +91 7018512482</li>
+          <li>Email: <a href="mailto:rajatsapehia123@gmail.com">rajatsapehia123@gmail.com</a></li>
+          <li>GitHub: <a href="https://github.com/Rajat09943" target="_blank">github.com/Rajat09943</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/rajat-sapehia-3b4a87202" target="_blank">linkedin.com/in/rajat-sapehia-3b4a87202</a></li>
+        </ul>
+      </div>
     </div>
   </section>
   <footer>
